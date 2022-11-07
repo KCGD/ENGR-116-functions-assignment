@@ -1,4 +1,4 @@
-# Functins project!
+# Functions project!
 
 Hello! This is my submission for the ENGR-116 Functions assignment (including the Hanoi puzzle).
 

@@ -1,0 +1,28 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "pkg": "^5.7.0",
+    "typescript": "^4.7.3"
+  },
+  "pkg": {
+    "outputPath": "./Builds",
+    "assets": [
+      "./src/**/*"
+    ],
+    "targets": [
+      "node18-linux-x64",
+      "node18-win-x64",
+      "node18-mac-x64"
+    ]
+  },
+  "bin": "main.js"
+}
